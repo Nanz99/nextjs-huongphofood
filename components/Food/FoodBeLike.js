@@ -5,16 +5,14 @@ import { Card, Row, Col } from 'antd'
 
 function FoodBeLike() {
 	return (
-		<div className="food__new">
-			<div className="food__new__title">
-				<h2>MÓN MỚI</h2>
-				<a href="" className="btn__detail">Xem chi tiết <i className="material-icons">arrow_forward</i></a>
+		<div className="food__belike">
+			<div className="food__belike__title">
+				<h2>MÓN DUOC YEU THICH</h2>
 			</div>
-			<div className="food__content">
-        <Row gutter={[16, 16]}>
+			<div className="food__belike__content">
             {data.foods.filter(item=> item.category==="mon-yeu-thich").map(food => {
                 return (
-                  <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 4.8 }} key={food.name}>
+                  <div key={food.name}>
                     <Card
                       hoverable
                       cover={<img alt="Modern Design" src="/images/mon-an/bo-luc-lac.jpg" />}
@@ -34,10 +32,10 @@ function FoodBeLike() {
                           
                       </div>
                     </Card>
-                </Col>
+               </div>
             )})
             }
-          </Row>
+   
 			</div>
 		</div>
 	)

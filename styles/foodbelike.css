@@ -1,0 +1,43 @@
+.food__belike {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	padding: 24px;
+	background: #fff;
+	margin-bottom: 40px;
+	border: 2px solid #CDA922
+}
+.food__belike .food__belike__title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 14px;
+	border-bottom: 1px solid #fff;
+}
+.food__belike__title h2 {
+color: #111;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.food__belike__content{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 16px ;
+	
+}
+.food__belike__content h3{
+color: #111;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+	
+}

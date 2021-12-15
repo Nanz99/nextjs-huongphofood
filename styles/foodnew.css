@@ -4,6 +4,7 @@
 	margin: 0 auto;
 	padding: 24px;
 	background: #cda922;
+	margin-bottom: 40px;
 }
 .food__new .food__new__title {
 	display: flex;
@@ -12,7 +13,7 @@
 	padding-bottom: 14px;
 	border-bottom: 1px solid #fff;
 }
-.food__new__title h2 {
+.food__new__title h3 {
 	color: #fff;
 	font-size: 28px;
 	font-style: normal;

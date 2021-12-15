@@ -1,6 +1,7 @@
 import React from 'react'
 import FoodBeLike from './Food/FoodBeLike'
 import FoodNew from './Food/FoodNew'
+import Promo from './Promo'
 
 
 function FoodContainer() {
@@ -8,6 +9,7 @@ function FoodContainer() {
 		<div className="">
 			<FoodNew/>
 			<FoodBeLike/>
+			<Promo/>
 		</div>
 	)
 }
