@@ -3,9 +3,11 @@
 	height: auto;
 	margin: 0 auto;
 	padding: 24px;
+	margin-bottom: 40px;
 	background: #fff;
 	margin-bottom: 40px;
-	border: 2px solid #CDA922
+	border: 2px solid #CDA922;
+	border-radius:10px;
 }
 .food__belike .food__belike__title {
 	display: flex;
@@ -28,6 +30,7 @@ text-align: left;
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-gap: 16px ;
+	margin-top: 24px;
 	
 }
 .food__belike__content h3{

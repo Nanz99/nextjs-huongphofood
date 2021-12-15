@@ -1,17 +1,16 @@
-
-import React from 'react'
 import data from '../../utils/data';
 import { Card} from 'antd'
 import { formatPrice } from '../../utils/helper';
 
-function FoodBeLike() {
+function FoodAppetizer() {
 	return (
-		<div className="food__belike">
-			<div className="food__belike__title">
-				<h2>MÓN ĐƯỢC YÊU THÍCH</h2>
+		<div className="food__appeizer">
+			<div className="food__appeizer__title">
+				<h2>MÓN KHAI VỊ</h2>
+        <a href="" className="btn__detail">Xem chi tiết <i className="material-icons">arrow_forward</i></a>
 			</div>
-			<div className="food__belike__content">
-            {data.foods.filter(item=> item.category==="mon-yeu-thich").map(food => {
+			<div className="food__appeizer__content">
+            {data.foods.filter(item=> item.category==="mon-khai-vi").map(food => {
                 return (
                   <div key={food.name}>
                     <Card
@@ -42,4 +41,4 @@ function FoodBeLike() {
 	)
 }
 
-export default FoodBeLike
+export default FoodAppetizer

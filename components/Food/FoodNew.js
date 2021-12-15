@@ -1,6 +1,7 @@
 import React from 'react'
 import data from '../../utils/data';
 import { Card, Row, Col } from 'antd'
+import { formatPrice } from '../../utils/helper';
 
 function FoodNew() {
 	return (
@@ -24,7 +25,7 @@ function FoodNew() {
                             return (
                               <p key={item.id}>
                                 <span className="food__size">{item.size}</span>
-                                <span>{item.price}</span>
+                                <span>{formatPrice(item.price)}</span>
                               </p>
                             )
                           }

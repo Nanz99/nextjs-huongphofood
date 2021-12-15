@@ -28,9 +28,16 @@ ul {
 p {
   margin-bottom: 0;
 }
+
+.food-container{
+  margin-bottom: 60px;
+}
 /* Navbar */
 @import url("./navbar.css");
 @import url("./banner.css");
 @import url("./foodnew.css");
 @import url("./foodbelike.css");
+@import url("./promo.css");
+@import url("./foodapperizer.css");
+@import url("./foodsalad.css");
 @import url("./footer.css");
