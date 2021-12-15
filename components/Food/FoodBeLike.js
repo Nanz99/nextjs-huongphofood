@@ -23,7 +23,7 @@ function FoodBeLike() {
                       <div className="price">
                           {food && food.prices.map((item) => {
                             return (
-                              <p>
+                              <p key={item.id}>
                                 <span className="food__size">{item.size}</span>
                                 <span>{item.price}</span>
                               </p>
