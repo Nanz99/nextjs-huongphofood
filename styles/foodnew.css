@@ -1,0 +1,68 @@
+.food__new {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	padding: 24px;
+	background: #cda922;
+}
+.food__new .food__new__title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 14px;
+	border-bottom: 1px solid #fff;
+}
+.food__new__title h2 {
+	color: #fff;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 42px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.food__new__title .btn__detail {
+	display: flex;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: right;
+	color: #fff;
+	text-decoration: none;
+}
+.food__new__title .btn__detail i {
+	margin-left: 5px;
+}
+.food__content {
+	margin-top: 24px;
+}
+.food__content h3 {
+	color: #111;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.food__size {
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	background: #e8c544;
+	font-size: 10px;
+	text-align: center;
+	border: 2px double #e8c544;
+	margin-right: 5px;
+}
+.price p {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+
+}
