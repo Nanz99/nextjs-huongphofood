@@ -3,6 +3,7 @@ import Head from 'next/head';
 import NavBar from './Navbar';
 import Footer from './Footer';
 
+
 export default function Layout({ title, description, children }) {
 
 	return (

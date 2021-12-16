@@ -5,7 +5,7 @@
 	padding: 24px;
 	background: #cda922;
 	margin-bottom: 40px;
-	border-radius:10px;
+	border-radius: 10px;
 }
 .food__new .food__new__title {
 	display: flex;
@@ -14,14 +14,19 @@
 	padding-bottom: 14px;
 	border-bottom: 1px solid #fff;
 }
-.food__new__title h3 {
+.food__new__title h2 {
 	color: #fff;
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 42px;
 	letter-spacing: 0em;
+	display: flex;
+	align-items: center;
 	text-align: left;
+}
+h2 .logo__title {
+	margin-right: 15px;
 }
 .food__new__title .btn__detail {
 	display: flex;
@@ -29,7 +34,6 @@
 	font-style: normal;
 	font-weight: 600;
 	line-height: 24px;
-	letter-spacing: 0em;
 	text-align: right;
 	color: #fff;
 	text-decoration: none;
@@ -37,17 +41,35 @@
 .food__new__title .btn__detail i {
 	margin-left: 5px;
 }
-.food__content {
+.food__new__content {
 	margin-top: 24px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 16px;
 }
-.food__content h3 {
+.food__item {
+	background: #fff;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0px 4px 50px 0px #0000001a;
+}
+.food__item .food__image img {
+	width: 100%;
+	display: block;
+}
+.food__item .food__item__content {
+	padding: 12px;
+}
+.food__item__content h3 {
 	color: #111;
+	margin-top: 0px;
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 500;
 	line-height: 25px;
 	letter-spacing: 0em;
 	text-align: left;
+	margin-bottom: 10px;
 }
 
 .food__size {
@@ -56,15 +78,26 @@
 	border-radius: 50%;
 	overflow: hidden;
 	display: inline-block;
-	background: #e8c544;
+	color: #fff;
 	font-size: 10px;
 	text-align: center;
-	border: 2px double #e8c544;
 	margin-right: 5px;
 }
 .price p {
 	display: flex;
 	align-items: center;
 	margin-bottom: 10px;
+}
 
+.bg-size-S {
+	background: #e8c544;
+	border: 0.5px solid #e8c544;
+}
+.bg-size-M {
+	background: #cda922;
+	border: 0.5px solid #cda922;
+}
+.bg-size-L {
+	background: #a5850d;
+	border: 0.5px solid #a5850d;
 }

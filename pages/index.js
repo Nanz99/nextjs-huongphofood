@@ -4,6 +4,7 @@ import FoodContainer from '../components/FoodContainer'
 
 import Layout from '../components/Layout'
 import Services from '../components/Services'
+import VideoList from '../components/VideoList'
 
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
       <Banner/>
       <FoodContainer/>
       <Services/>
-      
+      <VideoList/>
     </Layout>
   )
 }

@@ -6,7 +6,7 @@ function Banner() {
 			<div className="banner__content">
 				<h1>Huong Pho Group</h1>
 				<p>
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, cum et facilis laboriosam excepturi voluptate dolore quam .
+				Quis et ac quisque arcu, sed ac tincidunt convallis nunc. Eleifend tincidunt gravida mi turpis eget ac sit.
 				</p>
 			</div>
 		</div>
