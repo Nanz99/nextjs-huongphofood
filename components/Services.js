@@ -30,8 +30,9 @@ function Services() {
 			<Typography sx={{
 				margin: "0 auto",
 				width: 1200,
+				
 			}}>
-				<Grid container gap={16}>
+				<Grid container gap={2} sx={{flexWrap: 'nowrap'}}>
 					{data.services.map((ser) => {
 						return (
 							<Grid
