@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <Layout>
       <Banner/>
-      <FoodContainer/>
-      <Services/>
-      <VideoList/>
+      <FoodContainer/> 
+     <Services/>
+      <VideoList/>  
     </Layout>
   )
 }

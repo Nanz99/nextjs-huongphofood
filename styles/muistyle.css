@@ -1,0 +1,99 @@
+
+/* Navbar */
+.css-1cndkqf-MuiToolbar-root{
+	min-height: 88px;
+}
+.css-19r6kue-MuiContainer-root{
+	padding: 0 80px;
+}
+.css-1t0e2o{
+	justify-content:flex-end;
+	width: 100%;
+}
+.css-1kcggdq-MuiInputBase-root{
+	margin-top: 12px;
+    border: 1px solid #ddd;
+	 border-radius: 30px;
+}
+.css-96uuyl .css-1iz4iln{
+	color: #cda922;
+}
+
+
+.food__size {
+	height: 16px;
+	width: 16px;
+	line-height:16px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	color: #fff;
+	font-size: 10px;
+	text-align: center;
+	margin-right: 5px;
+}
+.price p {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.bg-size-S {
+	background: #e8c544;
+	border: 0.5px solid #e8c544;
+}
+.bg-size-M {
+	background: #cda922;
+	border: 0.5px solid #cda922;
+}
+.bg-size-L {
+	background: #a5850d;
+	border: 0.5px solid #a5850d;
+}
+.logo__title{
+	margin-right:10px;
+}
+
+.service__container {
+	background: url('../public/images/bg-ser.png') no-repeat center /cover;
+	width: 100%;
+	padding: 40px 0 80px;
+}
+
+.service__item:before {
+	content:"";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.06%, rgba(0, 0, 0, 0.9) 67.71%);
+
+}
+.bg__service1{
+	background-image: url('../public/images/dich-vu/dv-1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.bg__service2{
+	background: url('../public/images/dich-vu/dv-2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.bg__service3{
+	background: url('../public/images/dich-vu/dv-3.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.bg__service4{
+	background: url('../public/images/dich-vu/dv-4.jpg');
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+}

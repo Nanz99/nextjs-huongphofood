@@ -9,11 +9,11 @@ import Promo from './Promo'
 function FoodContainer() {
 	return (
 		<div className="food-container">
-			<FoodNew/>
-			<FoodBeLike/>
-			<Promo/>
-			<FoodAppetizer/>
-			<FoodSalad/>
+			<FoodNew />
+			<FoodBeLike />
+			<Promo />
+			<FoodAppetizer />
+			<FoodSalad />
 		</div>
 	)
 }
