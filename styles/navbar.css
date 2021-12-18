@@ -8,7 +8,6 @@
 	align-items: center;
 	height: 88px;
 	line-height: 88px;
-
 }
 
 .nav__wrap img {
@@ -24,8 +23,8 @@
 	text-align: left;
 }
 
-.nav__menu{
-	display:inline;
+.nav__menu {
+	display: inline;
 }
 .nav__menu li {
 	display: inline;
@@ -37,10 +36,11 @@
 	font-size: 16px;
 	padding: 3px 8px;
 	display: inline-flex;
-    align-items: center
+	align-items: center;
+	text-transform: uppercase;
 }
-.nav__menu li a i{
-	font-size:20px;
+.nav__menu li a i {
+	font-size: 20px;
 }
 
 .nav__menu .search__box {
@@ -58,7 +58,7 @@
 	padding-left: 45px;
 	display: inline;
 }
-.nav__menu .search__box .search__icon{
+.nav__menu .search__box .search__icon {
 	position: absolute;
 	left: 13px;
 	bottom: -6px;
@@ -71,17 +71,17 @@
 }
 
 .nav__menu .shoping__cart {
-	height:24px;
-	width:24px;
+	height: 24px;
+	width: 24px;
 
 	position: relative;
 }
-.nav__menu .cart{
+.nav__menu .cart {
 	position: relative;
 	display: inline-block;
-    transform: translateY(8px);
+	transform: translateY(8px);
 }
-.nav__menu .cart .count{
+.nav__menu .cart .count {
 	height: 18px;
 	line-height: 18px;
 	width: 20px;
@@ -94,5 +94,4 @@
 	position: absolute;
 	right: -11px;
 	top: -8px;
-
 }
