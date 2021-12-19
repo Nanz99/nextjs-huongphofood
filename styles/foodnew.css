@@ -75,6 +75,7 @@ h2 .logo__title {
 .food__size {
 	height: 16px;
 	width: 16px;
+	line-height: 15px;
 	border-radius: 50%;
 	overflow: hidden;
 	display: inline-block;

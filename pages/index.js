@@ -10,10 +10,10 @@ import VideoList from '../components/VideoList'
 export default function Home() {
   return (
     <Layout>
-      <Banner/>
+      {/* <Banner/>
       <FoodContainer/> 
      <Services/>
-      <VideoList/>  
+      <VideoList/>   */}
     </Layout>
   )
 }

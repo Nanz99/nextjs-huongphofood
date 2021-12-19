@@ -15,6 +15,7 @@ import NextLink from 'next/link'
 import InputBase from '@mui/material/InputBase';
 import Badge from '@mui/material/Badge';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import Image from 'next/image'
 
 const pages = ['Trang chủ', 'Món ăn', 'Dịch vụ tiệc', 'Tin Tức', 'Liên Hệ'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -91,7 +92,7 @@ const Navbar = () => {
 				<Toolbar disableGutters>
 					<NextLink href="/">
 						<a href="">
-							<img src="/images/logo.png" alt="" className="logo" />
+							<Image src="/images/logo.png" width="150" height="62" alt="logo header" className="logo" />
 						</a>
 					</NextLink>
 

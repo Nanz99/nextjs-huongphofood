@@ -2,7 +2,7 @@ import data from '../../utils/data';
 import PriceSize from '../PriceSize';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import { CardContent, CardMedia, CardActionArea, Card, Button, Typography, Grid, Box, } from '@mui/material'
-
+import Image from 'next/image'
 function FoodAppetizer() {
   return (
     <Box sx={{
@@ -13,7 +13,7 @@ function FoodAppetizer() {
       overflow: 'hidden',
       boxShadow: 1,
       padding: 2.4,
-      mb:4
+      mb: 4
 
     }}>
       <Box sx={{
@@ -22,7 +22,7 @@ function FoodAppetizer() {
         justifyContent: "space-between",
         alignItems: "center",
         paddingBottom: 2,
-        borderBottom: '1px solid #fff',
+        borderBottom: '1px solid #DEDEDE',
         marginBottom: 2.4,
       }
 
@@ -33,8 +33,10 @@ function FoodAppetizer() {
           display: 'flex',
           alignItems: 'center',
         }}>
-          <img src="/images/icons/khaivi.png" className="logo__title" alt="" />
-          MÓN KHAI VỊ
+          <Image height="36" width="36" src="/images/icons/khaivi.png" className="logo__title" alt="" />
+          <span className="title__large">
+            MÓN KHAI VỊ
+          </span>
         </Typography>
         <Button variant="text" sx={{
           color: "#cda922",

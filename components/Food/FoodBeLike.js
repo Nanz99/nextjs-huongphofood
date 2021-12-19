@@ -2,7 +2,7 @@ import data from '../../utils/data';
 import PriceSize from '../PriceSize';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import { CardContent, CardMedia, CardActionArea, Card, Button, Typography, Grid, Box, } from '@mui/material'
-
+import Image from 'next/image'
 function FoodBeLike() {
   return (
     <Box sx={{
@@ -13,7 +13,8 @@ function FoodBeLike() {
       overflow: 'hidden',
       boxShadow: 1,
       padding: 2.4,
-      mb:4
+      mb: 4,
+      border: '1px solid #cda922'
 
     }}>
       <Box sx={{
@@ -22,8 +23,8 @@ function FoodBeLike() {
         justifyContent: "space-between",
         alignItems: "center",
         paddingBottom: 2,
-        borderBottom: '1px solid #fff',
-        marginBottom: 2.4,
+            borderBottom: '1px solid #DEDEDE',
+            marginBottom: 2.4,
       }
 
       }>
@@ -33,8 +34,10 @@ function FoodBeLike() {
           display: 'flex',
           alignItems: 'center',
         }}>
-          <img src="/images/icons/fire.png" className="logo__title" alt="" />
-          MÓN ĐƯỢC YÊU THÍCH
+          <Image src="/images/icons/fire.png" height="36" width="36" className="logo__title" alt="" />
+          <span className="title__large">
+            MÓN ĐƯỢC YÊU THÍCH
+          </span>
         </Typography>
         <Button variant="text" sx={{
           color: "#fff",

@@ -50,8 +50,8 @@
 	background: #a5850d;
 	border: 0.5px solid #a5850d;
 }
-.logo__title{
-	margin-right:10px;
+h2 span.title__large{
+	margin-left: 10px;
 }
 
 .service__container {

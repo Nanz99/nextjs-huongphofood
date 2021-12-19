@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-
+import Image from 'next/image'
 function Footer() {
 	return (
 		<div>
@@ -7,12 +7,12 @@ function Footer() {
 				<div className="footer__content">
 					<div className="footer__item flex-2 pr-40">
 						<NextLink href="/">
-							<img src="/images/logo-footer.png" alt=""  />
+							<Image height="62" width="150" src="/images/logo-footer.png" alt=""  />
 						</NextLink>
 						<h3>HP FOOD - HƯƠNG PHỐ GROUP</h3>
 						<p>Được thiết kế ấn tượng độc đáo theo phong cách tân cổ điển Châu Âu. Tọa lạc ngay trung tâm quận Gò Vấp với diện tích hơn 12,675m2 gồm 21 sảnh tiệc.</p>
 					</div>
-					<div className="footer__item pr-40 pl-40">
+					<div className="footer__item pr-30 pl-40">
 						<h2>Hỗ trợ</h2>
 
 						<ul className="footer__nav">
@@ -36,27 +36,27 @@ function Footer() {
 						<ul className="footer__social-icons">
 							<li>
 								<NextLink href="https://chat.zalo.me">
-									<img src="/images/icons/zalo.png" alt="" />
+									<Image height="32" width="32" src="/images/icons/zalo.png" alt="" />
 								</NextLink>
 							</li>
 							<li>
 								<NextLink href="https://youtube.com">
-									<img src="/images/icons/youtube.png" alt="" />
+									<Image height="32" width="32" src="/images/icons/youtube.png" alt="" />
 								</NextLink>
 							</li>
 							<li>
 								<NextLink href="https://facebook.com">
-									<img src="/images/icons/fb.png" alt="" />
+									<Image height="32" width="32" src="/images/icons/fb.png" alt="" />
 								</NextLink>
 							</li>
 							<li>
 								<NextLink href="https://www.linkedin.com/">
-									<img src="/images/icons/in.png" alt="" />
+									<Image height="32" width="32" src="/images/icons/in.png" alt="" />
 								</NextLink>
 							</li>
 							<li>
 								<NextLink href="https://instagram.com/">
-									<img src="/images/icons/insta.png" alt="" />
+									<Image height="32" width="32" src="/images/icons/insta.png" alt="" />
 								</NextLink>
 							</li>
 							

@@ -16,7 +16,7 @@ function Services() {
 				className="service__title"
 			>
 				<a>
-					<img src="/images/ser-logo.png" alt="" className="logo-ser" />
+					<Image src="/images/ser-logo.png" alt="" className="logo-ser" width="24" height="60" />
 				</a>
 				<Typography variant="h5" component="h5" sx={{
 					color: ' #cda922',
@@ -42,7 +42,8 @@ function Services() {
 								sx={{
 									height: 440,
 									position: 'relative',
-									borderRadius: '8px'
+									borderRadius: '8px',
+									overflow: 'hidden',
 								}}
 								className={`service__item bg__service${ser.id}`}
 								key={ser.name}
