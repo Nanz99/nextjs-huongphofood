@@ -281,15 +281,121 @@ function FoodDetails() {
                   />
                 </Typography>
               </TabPanel>
-              <TabPanel value={value} index={1} sx={{ padding: '0 !important'}}>
-                <TableContainer component={Paper} sx={{ padding: '0 !important'}}>
-                  <Table sx={{ minWidth: 650, padding: '0 !important' }} aria-label="simple table">
+              <TabPanel value={value} index={1}>
+                <Typography
+                  component="div"
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    mb: 2,
+                  }}
+                >
+                  <Typography
+                    component="h2"
+                    sx={{
+                      fontSize: "20px",
+
+                      mr: "10px",
+                    }}
+                  >
+                    Size{" "}
+                  </Typography>
+                  <Image
+                    src="/images/icons/priceS.png"
+                    height={32}
+                    width={32}
+                    alt=""
+                  />
+                </Typography>
+                <TableContainer
+                  component={Paper}
+                  sx={{ padding: "0 !important" }}
+                >
+                  <Table
+                    sx={{ minWidth: 650, padding: "0 !important" }}
+                    aria-label="simple table"
+                  >
                     <TableHead>
-                      <TableRow sx={{ background: "#CDA9220F", fontWeight: 'bold' }}>
-                        <TableCell sx={{fontWeight: 'bold'}}>Tên nguyên liệu</TableCell>
-                        <TableCell sx={{fontWeight: 'bold'}}>Số lượng</TableCell>
-                        <TableCell sx={{fontWeight: 'bold'}}>Đơn vị</TableCell>
-                        <TableCell sx={{fontWeight: 'bold'}}>Mô tả</TableCell>
+                      <TableRow
+                        sx={{ background: "#CDA9220F", fontWeight: "bold" }}
+                      >
+                        <TableCell sx={{ fontWeight: "bold" }}>
+                          Tên nguyên liệu
+                        </TableCell>
+                        <TableCell sx={{ fontWeight: "bold" }}>
+                          Số lượng
+                        </TableCell>
+                        <TableCell sx={{ fontWeight: "bold" }}>
+                          Đơn vị
+                        </TableCell>
+                        <TableCell sx={{ fontWeight: "bold" }}>Mô tả</TableCell>
+                      </TableRow>
+                    </TableHead>
+                    <TableBody>
+                      {rows.map((row) => (
+                        <TableRow
+                          key={row.nguyenlieu}
+                          sx={{
+                            "&:last-child td, &:last-child th": { border: 0 },
+                          }}
+                        >
+                          <TableCell>{row.nguyenlieu}</TableCell>
+                          <TableCell>{row.soluong}</TableCell>
+                          <TableCell>{row.donvi}</TableCell>
+                          <TableCell>{row.mota}</TableCell>
+                        </TableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                </TableContainer>
+                <Typography
+                  component="div"
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    mb: 2,
+                    mt:3
+                  }}
+                >
+                  <Typography
+                    component="h2"
+                    sx={{
+                      fontSize: "20px",
+
+                      mr: "10px",
+                    }}
+                  >
+                    Size{" "}
+                  </Typography>
+                  <Image
+                    src="/images/icons/priceM.png"
+                    height={32}
+                    width={32}
+                    alt=""
+                  />
+                </Typography>
+                <TableContainer
+                  component={Paper}
+                  sx={{ padding: "0 !important" }}
+                >
+                  <Table
+                    sx={{ minWidth: 650, padding: "0 !important" }}
+                    aria-label="simple table"
+                  >
+                    <TableHead>
+                      <TableRow
+                        sx={{ background: "#CDA9220F", fontWeight: "bold" }}
+                      >
+                        <TableCell sx={{ fontWeight: "bold" }}>
+                          Tên nguyên liệu
+                        </TableCell>
+                        <TableCell sx={{ fontWeight: "bold" }}>
+                          Số lượng
+                        </TableCell>
+                        <TableCell sx={{ fontWeight: "bold" }}>
+                          Đơn vị
+                        </TableCell>
+                        <TableCell sx={{ fontWeight: "bold" }}>Mô tả</TableCell>
                       </TableRow>
                     </TableHead>
                     <TableBody>

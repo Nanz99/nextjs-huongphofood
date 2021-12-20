@@ -87,7 +87,7 @@ function FoodSalad() {
                       />
                       <CardContent
                         sx={{
-                          height: 160,
+                          height: 180,
                         }}
                       >
                         <Typography

@@ -25,9 +25,12 @@ function foodnewpage() {
     <Layout>
       <Breadcrumb title="Món mới" />
 
-      <Container fixed sx={{
-         mb: '100px'
-      }}>
+      <Container
+        fixed
+        sx={{
+          mb: "100px",
+        }}
+      >
         <Grid container spacing={4}>
           <Grid item md={8}>
             <Box
@@ -68,33 +71,35 @@ function foodnewpage() {
                     return (
                       <Grid item xs={6} md={3} key={food.id}>
                         <Card sx={{ maxWidth: 345, Height: 300 }}>
-                          <CardActionArea>
-                            <CardMedia
-                              component="img"
-                              height="126"
-                              image={food.image}
-                              alt="green iguana"
-                            />
-                            <CardContent
-                              sx={{
-                                height: 153,
-                              }}
-                            >
-                              <Typography
-                                gutterBottom
-                                variant="h6"
-                                component="div"
+                          <NextLink href={`/product/${food.slug}`} passHref>
+                            <CardActionArea>
+                              <CardMedia
+                                component="img"
+                                height="126"
+                                image={food.image}
+                                alt="green iguana"
+                              />
+                              <CardContent
                                 sx={{
-                                  marginBottom: 2,
-                                  lineHeight: 1.2,
-                                  fontSize: '18px'
+                                  height: 170,
                                 }}
                               >
-                                {food.name}
-                              </Typography>
-                              <PriceSize prices={food.prices} />
-                            </CardContent>
-                          </CardActionArea>
+                                <Typography
+                                  gutterBottom
+                                  component="div"
+                                  sx={{
+                                    // marginBottom: 2,
+                                    lineHeight: "25,2px",
+                                    fontSize: "18px",
+                                    mb: "10px",
+                                  }}
+                                >
+                                  {food.name}
+                                </Typography>
+                                <PriceSize prices={food.prices} />
+                              </CardContent>
+                            </CardActionArea>
+                          </NextLink>
                         </Card>
                       </Grid>
                     );

@@ -1,15 +1,19 @@
 import React from 'react'
 import { formatPrice } from '../utils/helper'
-
+import Image from 'next/image'
+import { Typography } from '@mui/material'
 function PriceSize({prices}) {
 	return (
 		<div className="price">
 		{prices.map((item) => {
 		  return (
-			 <p key={item.id} style={{display: 'flex', alignItems: 'center'}}>
-				<span className={`food__size bg-size-${item.size}`}>{item.size}</span>
-				<span>{formatPrice(item.price)}</span>
-			 </p>
+			 <Typography component="div" sx={{
+				display: 'flex', alignItems: 'center',
+				mb: '5px'
+			 }} key={item.id}>
+				<Image src={item.sizeImg} height={16} width={16} alt="price size" />
+				<Typography component="span" sx={{ml:1}}>{formatPrice(item.price)}</Typography>
+			 </Typography>
 		  )
 		}
 		  )

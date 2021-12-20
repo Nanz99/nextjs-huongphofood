@@ -58,7 +58,7 @@ function FoodBeLike() {
 
                     />
                     <CardContent sx={{
-                      height: 160
+                      height: 180
                     }}>
                       <Typography gutterBottom variant="h6" component="div" sx={{
                         marginBottom: 2,
