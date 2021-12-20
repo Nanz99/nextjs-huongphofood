@@ -1,6 +1,5 @@
 import React from 'react'
 import data from '../../utils/data';
-import { Card, Row, Col } from 'antd'
 import { formatPrice } from '../../utils/helper';
 import PriceSize from '../PriceSize';
 
