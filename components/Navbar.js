@@ -92,7 +92,7 @@ const Navbar = () => {
 				<Toolbar disableGutters>
 					<NextLink href="/">
 						<a href="">
-							<Image src="/images/logo.png" width="150" height="62" alt="logo header" className="logo" />
+							<Image src="/images/logo.png" width={150} height={62} alt="logo header" className="logo" />
 						</a>
 					</NextLink>
 
