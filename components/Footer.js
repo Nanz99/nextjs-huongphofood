@@ -7,7 +7,7 @@ function Footer() {
 				<div className="footer__content">
 					<div className="footer__item flex-2 pr-40">
 						<NextLink href="/">
-							<Image height="62" width="150" src="/images/logo-footer.png" alt=""  />
+							<Image height={62} width={150} src="/images/logo-footer.png" alt=""  />
 						</NextLink>
 						<h3>HP FOOD - HƯƠNG PHỐ GROUP</h3>
 						<p>Được thiết kế ấn tượng độc đáo theo phong cách tân cổ điển Châu Âu. Tọa lạc ngay trung tâm quận Gò Vấp với diện tích hơn 12,675m2 gồm 21 sảnh tiệc.</p>

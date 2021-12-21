@@ -399,6 +399,52 @@ const data = {
         },
       ],
     },
+    {
+      id: uuidv4(),
+      description:
+        "Món bào ngư sốt dầu hào với thịt bào ngư Hàn Quốc mềm mềm dai giòn vị ngọt chế biến cùng sốt dầu hào đậm đà hương vị kiểu Trung Hoa, hương thơm quyến rũ.",
+      name: "Lẩu Cá Măng",
+      slug: "lau-ca-mang",
+      category: "mon-moi",
+      image: "/images/mon-an/mon-an-20.jpg",
+      prices: [
+        {
+          sizeImg: "/images/icons/priceS.png",
+          price: 100000,
+        },
+        {
+          sizeImg: "/images/icons/priceM.png",
+          price: 250000,
+        },
+        {
+          sizeImg: "/images/icons/priceL.png",
+          price: 500000,
+        },
+      ],
+    },
+    {
+      id: uuidv4(),
+      description:
+        "Món bào ngư sốt dầu hào với thịt bào ngư Hàn Quốc mềm mềm dai giòn vị ngọt chế biến cùng sốt dầu hào đậm đà hương vị kiểu Trung Hoa, hương thơm quyến rũ.",
+      name: "Lẩu",
+      slug: "lau",
+      category: "mon-moi",
+      image: "/images/mon-an/mon-an-21.jpg",
+      prices: [
+        {
+          sizeImg: "/images/icons/priceS.png",
+          price: 100000,
+        },
+        {
+          sizeImg: "/images/icons/priceM.png",
+          price: 250000,
+        },
+        {
+          sizeImg: "/images/icons/priceL.png",
+          price: 500000,
+        },
+      ],
+    },
   ],
   services: [
     {

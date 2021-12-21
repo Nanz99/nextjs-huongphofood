@@ -77,6 +77,7 @@ function FoodNew() {
         <Grid container spacing={2}>
           {data.foods
             .filter((item) => item.category === "mon-moi")
+            .slice(0,4)
             .map((food) => {
               return (
                 <Grid item xs={6} md={3} key={food.id}>

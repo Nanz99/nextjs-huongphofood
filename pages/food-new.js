@@ -11,10 +11,14 @@ import {
   CardActionArea,
   Card,
   Button,
+  Stack,
   Box,
   Typography,
   Container,
+  IconButton,
 } from "@mui/material";
+import DeleteIcon from "@mui/icons-material/Delete";
+import EditOutlinedIcon from "@mui/icons-material/EditOutlined";
 
 import NextLink from "next/link";
 import PriceSize from "../components/PriceSize";
@@ -29,6 +33,7 @@ function foodnewpage() {
         fixed
         sx={{
           mb: "100px",
+          padding: "0 !important",
         }}
       >
         <Grid container spacing={4}>
@@ -118,6 +123,8 @@ function foodnewpage() {
                 sx={{
                   display: "flex",
                   alignItems: "center",
+                  padding: "10px",
+                  borderBottom: "1px solid #DEDEDE",
                 }}
               >
                 <Image
@@ -133,9 +140,138 @@ function foodnewpage() {
                     ml: 2,
                   }}
                 >
-                  Gio Hang
+                  Giỏ Hàng
                 </Typography>
               </Typography>
+              <Grid
+                container
+                spacing={1}
+                sx={{ padding: "20px 0", borderBottom: "1px solid #DEDEDE" }}
+              >
+                <Grid item md={8}>
+                  <Grid container spacing={1}>
+                    <Grid item md={4}>
+                      <Image
+                        src="/images/mon-an/mon-an-3.jpg"
+                        alt=""
+                        height={50}
+                        width={76}
+                        layout="responsive"
+                        style={{ borderRadius: "8px", overflow: "hidden" }}
+                      />
+                    </Grid>
+                    <Grid item md={8}>
+                      <Typography component="div">
+                        <Typography component="h5">
+                          Cá chép hấp hồng kong
+                        </Typography>
+                        <Typography
+                          component="div"
+                          sx={{ display: "flex", alignItems: "center" }}
+                        >
+                          <Image
+                            src="/images/icons/priceS.png "
+                            alt=""
+                            height={18}
+                            width={18}
+                          />{" "}
+                          <Typography component="span" sx={{ ml: "5px" }}>
+                            x3{" "}
+                          </Typography>
+                        </Typography>
+                      </Typography>
+                    </Grid>
+                  </Grid>
+                </Grid>
+                <Grid item md={4}>
+                  <Typography component="div">
+                    <Typography component="h5">10.126.000 đ</Typography>
+                    <Stack
+                      direction="row"
+                      justifyContent="flex-end"
+                      spacing={1}
+                    >
+                      <IconButton aria-label="edit">
+                        <EditOutlinedIcon sx={{ color: "#CDA922" }} />
+                      </IconButton>
+                      <IconButton aria-label="delete">
+                        <DeleteIcon />
+                      </IconButton>
+                    </Stack>
+                  </Typography>
+                </Grid>
+              </Grid>
+              <Grid
+                container
+                spacing={1}
+                sx={{ padding: "20px 0", borderBottom: "1px solid #DEDEDE" }}
+              >
+                <Grid item md={8}>
+                  <Grid container spacing={1}>
+                    <Grid item md={4}>
+                      <Image
+                        src="/images/mon-an/mon-an-4.jpg"
+                        alt=""
+                        height={50}
+                        width={76}
+                        layout="responsive"
+                        style={{ borderRadius: "8px", overflow: "hidden" }}
+                      />
+                    </Grid>
+                    <Grid item md={8}>
+                      <Typography component="div">
+                        <Typography component="h5">
+                        Chả mực hạ long
+                        </Typography>
+                        <Typography
+                          component="div"
+                          sx={{ display: "flex", alignItems: "center" }}
+                        >
+                          <Image
+                            src="/images/icons/priceS.png "
+                            alt=""
+                            height={18}
+                            width={18}
+                          />{" "}
+                          <Typography component="span" sx={{ ml: "5px" }}>
+                            x3{" "}
+                          </Typography>
+                        </Typography>
+                      </Typography>
+                    </Grid>
+                  </Grid>
+                </Grid>
+                <Grid item md={4}>
+                  <Typography component="div">
+                    <Typography component="h5">10.126.000 đ</Typography>
+                    <Stack
+                      direction="row"
+                      justifyContent="flex-end"
+                      spacing={1}
+                    >
+                      <IconButton aria-label="edit">
+                        <EditOutlinedIcon sx={{ color: "#CDA922" }} />
+                      </IconButton>
+                      <IconButton aria-label="delete">
+                        <DeleteIcon />
+                      </IconButton>
+                    </Stack>
+                  </Typography>
+                </Grid>
+              </Grid>
+              <Stack
+                direction="row"
+                justifyContent="space-between"
+                alignItems="center"
+                spacing={1}
+                sx={{
+                  padding:'20px 0'
+                }}
+              >
+                <Typography component="h3"  sx={{fontSize:'16px', fontWeight:500}}>Tổng Tiền</Typography>
+                <Typography component="h3" sx={{fontSize:'24px', fontWeight:'bold'}}>13.828.000 đ</Typography>
+              </Stack>
+              <Button fullWidth variant="contained" sx={{backgroundColor:'#CDA922', textTransform: "uppercase"}}>Đặt hàng</Button>
             </Card>
           </Grid>
         </Grid>

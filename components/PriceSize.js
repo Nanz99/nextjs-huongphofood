@@ -12,7 +12,7 @@ function PriceSize({prices}) {
 				mb: '5px'
 			 }} key={item.id}>
 				<Image src={item.sizeImg} height={16} width={16} alt="price size" />
-				<Typography component="span" sx={{ml:1}}>{formatPrice(item.price)}</Typography>
+				<Typography component="h4" sx={{ml:1}}>{formatPrice(item.price)}</Typography>
 			 </Typography>
 		  )
 		}

@@ -306,7 +306,7 @@ function news() {
           </Grid>
         </Grid>
       </Container>
-      <VideoList />
+    
     </Layout>
   );
 }

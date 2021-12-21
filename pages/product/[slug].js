@@ -31,6 +31,8 @@ import RemoveCircleOutlineOutlinedIcon from "@mui/icons-material/RemoveCircleOut
 import PropTypes from "prop-types";
 import FoodAppetizer from "../../components/Food/FoodAppetizer";
 import FoodBeLike from "../../components/Food/FoodBeLike";
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import useStyles from "../../utils/styles";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -90,6 +92,7 @@ const rows = [
 ];
 
 function FoodDetails() {
+  const classes = useStyles()
   const router = useRouter();
   const [value, setValue] = React.useState(0);
 
@@ -104,7 +107,7 @@ function FoodDetails() {
     <div>
       <Layout title={food.name}>
         <Container fixed sx={{ padding: "0 !important" }}>
-          <Breadcrumb title={food.name} food />
+          <Breadcrumb title={food.name} food color2="#000"/>
           <Grid container spacing={4}>
             <Grid item xs={12} md={6}>
               <Image
@@ -190,6 +193,10 @@ function FoodDetails() {
                   </ListItem>
                 ))}
               </List>
+              <Typography component="div" sx={{display: "flex", justifyContent: 'space-between', alignItems: 'center', margin: '15px 0'}}>
+                <Typography component="p">Giá chưa bao gồm 10% VAT</Typography>
+                <Button variant="contained"  startIcon={<ShoppingCartOutlinedIcon/>} sx={{backgroundColor:'#CDA922', padding: "10px 96px"}}>Thêm vào giỏ</Button>
+              </Typography>
             </Grid>
           </Grid>
 

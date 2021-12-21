@@ -176,7 +176,7 @@ const Navbar = () => {
                 <NextLink href="/">Trang Chủ</NextLink>
               </ListItem>
               <ListItem sx={{ display: "inline", textTransform: "uppercase" }}>
-                <NextLink href="/">Món ngon</NextLink>
+                <NextLink href="/food-new">Món ngon</NextLink>
               </ListItem>
               <ListItem sx={{ display: "inline", textTransform: "uppercase" }}>
                 <NextLink href="/service">Dịch vụ tiệc</NextLink>
@@ -198,9 +198,11 @@ const Navbar = () => {
               />
             </Search>
             <IconButton aria-label="cart">
+              <NextLink href="/cart">
               <StyledBadge badgeContent={4} color="secondary">
                 <ShoppingCartIcon />
               </StyledBadge>
+              </NextLink>
             </IconButton>
           </Box>
 

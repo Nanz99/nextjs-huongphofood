@@ -3,6 +3,7 @@ import data from "../utils/data";
 import { Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import Layout from "../components/Layout";
+import NextLink from "next/link";
 
 function Services() {
   return (
@@ -13,7 +14,6 @@ function Services() {
           backgroundImage: `url(/images/dich-vu/bg-service-page.png)`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-
           backgroundSize: "cover",
           height: "230px",
           width: "100%",
@@ -122,20 +122,22 @@ function Services() {
                     >
                       {ser.description}
                     </Typography>
-                    <Button
-                      sx={{
-                        bgcolor: "transparent",
-                        fontSize: "14px",
-                        fontWeight: 400,
-                        padding: "8px 12px",
-                        border: "1px solid #cda922",
-                        color: "#cda922",
-                        borderRadius: "8px",
-                      }}
-                      variant="text"
-                    >
-                      Xem Chi Tiết
-                    </Button>
+                    <NextLink href="/service/service-details">
+                      <Button
+                        sx={{
+                          bgcolor: "transparent",
+                          fontSize: "14px",
+                          fontWeight: 400,
+                          padding: "8px 12px",
+                          border: "1px solid #cda922",
+                          color: "#cda922",
+                          borderRadius: "8px",
+                        }}
+                        variant="text"
+                      >
+                        Xem Chi Tiết
+                      </Button>
+                    </NextLink>
                   </Typography>
                 </Grid>
               );
