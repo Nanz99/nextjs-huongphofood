@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import NavBar from './Navbar';
 import Footer from './Footer';
+import VideoList from './VideoList';
 
 
 export default function Layout({ title, description, children }) {
@@ -15,6 +16,7 @@ export default function Layout({ title, description, children }) {
 			<div>
 				<NavBar />
 				{children}
+				<VideoList/>
 				<Footer />
 			</div>
 		</div>

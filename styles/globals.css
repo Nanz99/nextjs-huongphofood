@@ -1,9 +1,12 @@
-html,
 body {
   padding: 0;
   margin: 0;
+<<<<<<< HEAD
   font-family: 'Be Vietnam Pro', sans-serif;
   font-size: 16px;
+=======
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+>>>>>>> feature/mui
   background: url('../public/images/bg-main.png') repeat center;
 }
 
@@ -11,7 +14,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+}
 * {
   margin:0;
   padding:0;
@@ -38,14 +43,14 @@ p {
 
 }
 /* Navbar */
-@import url("./header.css");
-@import url("./navbar.css");
+/* @import url("./header.css");
+@import url("./navbar.css"); */
 @import url("./banner.css");
-@import url("./foodnew.css");
-@import url("./foodbelike.css");
+ /* @import url("./foodnew.css"); */
+/* @import url("./foodbelike.css"); */
 @import url("./promo.css");
-@import url("./foodapperizer.css");
-@import url("./foodsalad.css");
-@import url("./service.css");
-@import url("./videolist.css");
-@import url("./footer.css");
+/* @import url("./foodapperizer.css"); */
+/* @import url("./foodsalad.css"); */
+/* @import url("./service.css"); */
+@import url("./videolist.css"); 
+@import url("./footer.css"); 

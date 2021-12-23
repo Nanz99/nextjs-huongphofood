@@ -1,4 +1,5 @@
 import Slider from "react-slick";
+import Image from 'next/image'
 
 function VideoList() {
 	var settings = {
@@ -41,7 +42,7 @@ function VideoList() {
 			<Slider {...settings} className="video__list">
           <div className="video__item">
 					<div className="video__image">
-						<img src="/images/video/1.png" alt="" />
+						<Image width="221" height="140" src="/images/video/1.png" alt="" />
 						<span className="playvideo">
 						<i className="material-icons">play_arrow</i>
 						</span>
@@ -50,7 +51,7 @@ function VideoList() {
           </div>
           <div className="video__item">
 					<div className="video__image">
-						<img src="/images/video/2.png" alt="" />
+						<Image width="221" height="140" src="/images/video/2.png" alt="" />
 						<span className="playvideo">
 						<i className="material-icons">play_arrow</i>
 						</span>
@@ -59,7 +60,7 @@ function VideoList() {
           </div>
           <div className="video__item">
 					<div className="video__image">
-						<img src="/images/video/3.png" alt="" />
+						<Image width="221" height="140" src="/images/video/3.png" alt="" />
 						<span className="playvideo">
 						<i className="material-icons">play_arrow</i>
 						</span>
@@ -68,7 +69,7 @@ function VideoList() {
           </div>
           <div className="video__item">
 					<div className="video__image">
-						<img src="/images/video/4.png" alt="" />
+						<Image width="221" height="140" src="/images/video/4.png" alt="" />
 						<span className="playvideo">
 						<i className="material-icons">play_arrow</i>
 						</span>
@@ -77,7 +78,7 @@ function VideoList() {
           </div>
           <div className="video__item">
 					<div className="video__image">
-						<img src="/images/video/5.png" alt="" />
+						<Image width="221" height="140" src="/images/video/5.png" alt="" />
 						<span className="playvideo">
 						<i className="material-icons">play_arrow</i>
 						</span>
@@ -86,7 +87,7 @@ function VideoList() {
           </div>
           <div className="video__item">
 					<div className="video__image">
-						<img src="/images/video/1.png" alt="" />
+						<Image width="221" height="140" src="/images/video/1.png" alt="" />
 						<span className="playvideo">
 						<i className="material-icons">play_arrow</i>
 						</span>
@@ -95,7 +96,7 @@ function VideoList() {
 					</div>
           <div className="video__item">
 					<div className="video__image">
-						<img src="/images/video/2.png" alt="" />
+						<Image width="221" height="140" src="/images/video/2.png" alt="" />
 						<span className="playvideo">
 						<i className="material-icons">play_arrow</i>
 						</span>
@@ -104,7 +105,7 @@ function VideoList() {
           </div>
           <div className="video__item">
 					<div className="video__image">
-						<img src="/images/video/3.png" alt="" />
+						<Image width="221" height="140" src="/images/video/3.png" alt="" />
 						<span className="playvideo">
 						<i className="material-icons">play_arrow</i>
 						</span>
