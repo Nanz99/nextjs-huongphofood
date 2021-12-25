@@ -7,18 +7,8 @@ class MyDocument extends Document {
 			<Html lang="en">
 				<Head>
 					<meta name="description" content="Dev AT E-commerce website with Next.js" />
-<<<<<<< HEAD
-					<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-					<link
-						rel="stylesheet"
-						href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-					/>
-					<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;700&display=swap" rel="stylesheet"/>
-
-=======
 					<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 					<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
->>>>>>> feature/mui
 					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
 
 				</Head>

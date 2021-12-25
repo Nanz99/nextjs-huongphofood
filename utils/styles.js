@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "28px",
     lineHeight: "42px",
     textTransform: "uppercase",
-    m: "32px 0",
+   //  m: "32px 0",
   },
   flex__center: {
     display: "flex",
